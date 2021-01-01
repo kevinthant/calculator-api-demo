@@ -1,0 +1,16 @@
+version: '3'
+services:
+  webapp:
+    image: kevinthant/calculator-api:latest
+    container_name: calculator-api-webapp
+    ports:
+      - 3000
+    environment:
+      NODE_ENV: production
+      VIRTUAL_PORT: 3000
+      VIRTUAL_HOST: "calculator-test.random21.com"
+    
+networks:
+  default:
+    external: 
+      name: nginx-proxy
