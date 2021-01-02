@@ -9,7 +9,7 @@ var express = require('express');
 var app = express();
 var port = 3000;
 app.get('/', function (req, res) {
-  res.send("Calculator API");
+  res.send("Calculator API - it is also running now in TEST environment");
 });
 app.get('/sum', function (req, res) {
   var _req$query = req.query,

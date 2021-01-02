@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send(`Calculator API`)
+  res.send(`Calculator API - it is also running now in TEST environment`);
 });
 
 app.get('/sum', (req, res) => {
