@@ -5,6 +5,7 @@ This is a test project for demostrating how you can use SyncRelease for creating
 
 This API website will contain only a single API endpoint.
 
+
 `/sum` -> return the sum of two given integer numbers: a and b
 
 Getting started
